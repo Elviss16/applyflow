@@ -27,10 +27,17 @@ if (!JWT_SECRET) {
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://applyflow-297msc0re-elvis-f135.vercel.app",
-    ],
+    origin: (origin, callback) => {
+      if (
+        !origin ||
+        origin === "http://localhost:5173" ||
+        origin.endsWith(".vercel.app")
+      ) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
