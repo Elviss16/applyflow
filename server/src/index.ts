@@ -25,7 +25,16 @@ if (!JWT_SECRET) {
   );
 }
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://applyflow-297msc0re-elvis-f135.vercel.app",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 app.use(express.json());
 
 type TokenPayload = {
