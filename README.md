@@ -12,15 +12,15 @@ Users can securely create an account, track applications through different stage
 
 ### Dashboard
 
-![ApplyFlow Dashboard](screenshots/dashboard)
+![ApplyFlow Dashboard](screenshots/dashboard.png)
 
 ### Applications
 
-![ApplyFlow Applications](screenshots/applications)
+![ApplyFlow Applications](screenshots/applications.png)
 
 ### Analytics
 
-![ApplyFlow Analytics](screenshots/analytics)
+![ApplyFlow Analytics](screenshots/analytics.png)
 
 ## GitHub
 
@@ -96,4 +96,3 @@ React + TypeScript Frontend
             |
             v
         PostgreSQL
-        
