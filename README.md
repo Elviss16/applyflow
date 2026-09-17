@@ -12,15 +12,15 @@ Users can securely create an account, track applications through different stage
 
 ### Dashboard
 
-![ApplyFlow Dashboard](screenshots/applyflow-dashboard)
+![ApplyFlow Dashboard](screenshots/dashboard)
 
 ### Applications
 
-![ApplyFlow Applications](screenshots/applications.png)
+![ApplyFlow Applications](screenshots/applications)
 
 ### Analytics
 
-![ApplyFlow Analytics](screenshots/analytics.png)
+![ApplyFlow Analytics](screenshots/analytics)
 
 ## GitHub
 
