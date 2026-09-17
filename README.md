@@ -8,6 +8,20 @@ Users can securely create an account, track applications through different stage
 
 [View ApplyFlow Live](https://applyflow-xi-jet.vercel.app/)
 
+## Screenshots
+
+### Dashboard
+
+![ApplyFlow Dashboard](screenshots/applyflow-dashboard)
+
+### Applications
+
+![ApplyFlow Applications](screenshots/applications.png)
+
+### Analytics
+
+![ApplyFlow Analytics](screenshots/analytics.png)
+
 ## GitHub
 
 [View Source Code](https://github.com/Elviss16/applyflow)
